@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>To-Do List</h1>
+    <form id="add-task-form">
+      <input type="text" id="task-input" placeholder="Enter a new task...">
+      <input type="date" id="due-date-input">
+      <button id="add-task" type="submit">Add Task</button>
+    </form>
+    <form id="search-form">
+      <input type="text" id="search-input" placeholder="Search tasks...">
+      <button type="submit">Search</button>
+    </form>
+    <ul id="task-list"></ul>
+    <p>Tasks remaining: <span id="remaining-tasks"></span></p>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+/* Set the font for the entire page to sans-serif */
+body {
+  font-family: "Comic Sans MS", sans-serif;
+}
+/* Add a bottom margin to the form with the id 'add-task-form' */
+#add-task-form {
+  margin-bottom: 1em;
+}
+
+/* Add padding and set the width of the input with the id 'task-input' */
+#task-input {
+  padding: 0.5em;
+  width: 70%;
+}
+
+/* Remove the list style and left padding from the unordered list with the id 'task-list' */
+#task-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Add a bottom margin to elements with the class 'task-item' */
+.task-item {
+  margin-bottom: 0.5em;
+}
+
+/* Add left margin to elements with the classes 'complete-button' and 'delete-button' */
+.complete-button,
+.delete-button {
+  margin-left: 0.5em;
+}
+
+/* Add a line-through text decoration to elements with the class 'completed' */
+.completed {
+  text-decoration: line-through;
+}
+
+body {
+  background-color: #C8A2C8;
+}
+
+/* Set the color of all text on the page to blue */
+body {
+  color: blue;
+}
